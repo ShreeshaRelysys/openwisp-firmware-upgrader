@@ -7,9 +7,9 @@ from setuptools import find_packages, setup
 from openwisp_firmware_upgrader import get_version
 
 # TODO: change this when next version of openwisp_controller is released
-controller = 'https://github.com/openwisp/openwisp-controller/tarball/master'
+controller = 'https://github.com/ShreeshaRelysys/openwisp-controller/tarball/master'
 # TODO: change this when next version of openwisp_utils is released
-utils = 'https://github.com/openwisp/openwisp-utils/tarball/master'
+utils = 'https://github.com/ShreeshaRelysys/openwisp-utils/tarball/master'
 
 if sys.argv[-1] == 'publish':
     # delete any *.pyc, *.pyo and __pycache__
@@ -33,7 +33,7 @@ setup(
     description='Firmware upgrader module of OpenWISP',
     long_description=open('README.rst').read(),
     url='http://openwisp.org',
-    download_url='https://github.com/openwisp/openwisp-firmware-upgrader/releases',
+    download_url='https://github.com/ShreeshaRelysys/openwisp-firmware-upgrader/releases',
     platforms=['Platform Independent'],
     keywords=['django', 'netjson', 'networking', 'openwisp', 'firmware'],
     packages=find_packages(exclude=['tests*', 'docs*']),
